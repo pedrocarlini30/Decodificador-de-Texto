@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+   <header>
+        <img class="logoAlura" src="/imagens/Logo.png" alt="Logo da Alura">
+    </header>
+
+<main>
+    <section>
+        <textarea class="textarea" rows="4" cols="41" placeholder="Digite seu texto"></textarea>
+
+        <div class="informacao">
+            <h6>Letras maiúsculas e caracteres especiais não serão aceitos</h6>
+        </div>
+        <div class="botoes">
+            <button class="botao-encriptar" onclick="botaoencriptar()">Criptografar</button>
+            <button class="botao-desencriptar" onclick="botaodesencriptar()">Descriptografar</button>
+        </div>
+   </section>
+
+   <section>
+        <textarea class="mensagem" rows="4" cols="41" placeholder="Nenhuma mensagem encontrada"></textarea>
+        <button class="botao-copiar"onclick="botaocopiar()">Copiar</button>
+           
+        </div>
+   </section>
+</main>
+
+<script src="index.js" defer></script>
+</body>
+<footer>
+    <div class="rodape">
+    <p>Criado por Pedro Carlini</p>
+    </div>   
+</footer>
+</html>

@@ -1,0 +1,114 @@
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+margin-left:10px ;
+padding-top:10px; 
+width:2% ;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px; 
+}
+
+.textarea {
+    border: #E5E5E5;
+    color:#0A3871 ;
+    margin-top: 0px;
+    text-transform: lowercase;
+    resize: none;
+    
+}
+
+::placeholder { color: #0A3871;}
+    .textarea:focus {
+        outline: none;
+    }
+
+    .mensagem {
+        background: white;
+        background-image: url(/imagens/boneco.png);
+        background-repeat: no-repeat;
+        background-size: 336px , 304px ;
+        background-position: center; /* Centraliza a imagem */
+        border: none;
+        border-radius: 50px;
+        color: #0A3871;
+        margin-left: 78px;
+        margin-top: 0px;
+        margin-right: 98px;
+        padding-left: 20px;
+        position: absolute;
+        width: 400px;
+        height: 635px;
+        font-size: 32px;
+        font-weight: 400;
+        resize: none;
+    }
+
+::placeholder { color: #0A3871;}
+    .mensagem:focus {
+        color: #0A3871;
+        outline: none;
+    }
+
+
+    .botoes {
+        display: flex;
+        margin-top: 18px;
+    }
+    
+    .botao-encriptar {
+        background: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+
+    .botao-desencriptar {
+        background: #d8dfe8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+
+    .botao-copiar {
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 108px;
+        margin-top: 600px;
+        position: absolute;
+        width: 336px;
+    }
+
+    .informacao {
+        color: #495057;
+        font-size: 3px;
+        transform: translate(0px, 70px);
+    }
+
+    .rodape {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+    color:#0A3871;
+    font-size: 15px;
+    }
+    
